@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {GetStaticProps} from "next";
 import {getGithubPreviewProps, parseJson} from "next-tinacms-github";
-import {useGithubJsonForm} from "react-tinacms-github";
+import {useGithubJsonForm, useGithubToolbarPlugins} from "react-tinacms-github";
 import {usePlugin} from "@tinacms/react-core";
 
 export default function Home({ file }) {
@@ -13,6 +13,7 @@ export default function Home({ file }) {
     // Registers a JSON Tina Form
     const [data, form] = useGithubJsonForm(file, formOptions)
     usePlugin(form)
+    useGithubToolbarPlugins()
   return (
     <div className={styles.container}>
       <Head>

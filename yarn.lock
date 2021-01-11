@@ -2902,6 +2902,11 @@ next-tinacms-github@^0.35.0:
     react-tinacms-github "^0.35.0"
     uuid "^8.1.0"
 
+next-tinacms-json@^0.34.0:
+  version "0.34.0"
+  resolved "https://registry.yarnpkg.com/next-tinacms-json/-/next-tinacms-json-0.34.0.tgz#9b0815b801d5baa497d1aebe7a96c4d13de65a35"
+  integrity sha512-FE7l87g4GyrbBR39SsIzadvIdbsS/VxYSzQQ7TzRAPXlRQCrNAg8M3b9gCweXp88T0jdwQBenjoMxBdh5we95g==
+
 next-tinacms-markdown@^0.34.0:
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/next-tinacms-markdown/-/next-tinacms-markdown-0.34.0.tgz#33066849c34960b5e28cfb2082c82a0f45ad1cc4"
